@@ -12,7 +12,7 @@ builder.Services.AddControllers();             // コントローラー機能
 builder.Services.AddEndpointsApiExplorer();    // SwaggerでAPI情報表示のため
 builder.Services.AddSwaggerGen();              // Swagger UIの自動生成
 
-// 🔓 CORSポリシーの定義：Vue.js（http://localhost:5173）からのアクセスを許可、vueのURLのポート番号
+// 🔓 CORSポリシーの定義：Vue.js（http://localhost:5173）からのアクセスを許可、vueのURLのポート番号、ここは「/」ではなく「:」→全体を示すため
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowVueApp",
