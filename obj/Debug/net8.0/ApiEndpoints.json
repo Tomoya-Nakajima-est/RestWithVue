@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "RESTwithVue.Controllers.PlayersController",
+    "Method": "GetAll",
+    "RelativePath": "api/Players",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
