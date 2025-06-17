@@ -8,5 +8,37 @@
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RESTwithVue.Controllers.PlayersController",
+    "Method": "PostData",
+    "RelativePath": "api/Players",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "player",
+        "Type": "RESTwithVue.Models.Player",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RESTwithVue.Controllers.PlayersController",
+    "Method": "Delete",
+    "RelativePath": "api/Players/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]
